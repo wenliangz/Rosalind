@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier-Bold;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red252\green97\blue8;\red209\green0\blue46;\red15\green112\blue1;
+\red87\green197\blue83;\red55\green42\blue120;\red252\green44\blue7;\red0\green0\blue135;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa298
+
+\f0\b\fs36 \cf0 Calculating GC content in python\
+Script1:
+\f1\fs24 \cf2 \
+\pard\pardeftab720
+\cf2 \
+import
+\f2\b0 \cf0  \cf3 re\cf0 \
+
+\f1\b \cf2 import
+\f2\b0 \cf0  \cf3 string\cf0 \
+\'a0\
+
+\f1\b \cf2 def
+\f2\b0 \cf0  main():\
+    \cf4 file\cf0  \cf5 =\cf0  \cf4 open\cf0 (\cf6 "Homo_sapiens.GRCh37.67.dna_rm.chromosome.Y.fa"\cf5 ,\cf6 "r"\cf0 )\
+    gcCount \cf5 =\cf0  \cf7 0\cf0 \
+    totalBaseCount \cf5 =\cf0  \cf7 0\cf0 \
+    
+\f1\b \cf2 for
+\f2\b0 \cf0  line 
+\f1\b \cf2 in
+\f2\b0 \cf0  \cf4 file\cf0 :\
+        line \cf5 =\cf0  line.strip(\cf6 "
+\f1\b \cf8 \\n
+\f2\b0 \cf6 "\cf0 )\
+        
+\f1\b \cf2 if
+\f2\b0 \cf0  
+\f1\b \cf2 not
+\f2\b0 \cf0  line.startswith(\cf6 ">"\cf0 ):\
+            gcCount +\cf5 =\cf0  \cf4 len\cf0 (\cf3 re\cf0 .findall(\cf6 "[GC]"\cf5 ,\cf0  line))\
+            totalBaseCount +\cf5 =\cf0  \cf4 len\cf0 (\cf3 re\cf0 .findall(\cf6 "[GCTA]"\cf5 ,\cf0  line))\
+    gcFraction \cf5 =\cf0  \cf4 float\cf0 (gcCount) / totalBaseCount\
+    
+\f1\b \cf2 print
+\f2\b0 \cf0 ( gcFraction * \cf7 100\cf0  )\
+\'a0\
+\'a0\
+
+\f1\b \cf2 if
+\f2\b0 \cf0  __name__ \cf5 ==\cf0  \cf6 '__main__'\cf0 :\
+    main()\
+\
+\
+\
+\
+\pard\pardeftab720\sa298
+
+\f0\b\fs36 \cf0 Script2:
+\f2\b0\fs24 \
+\pard\pardeftab720\sa240
+
+\f0 \cf0 import re\uc0\u8232 import string\
+file = open("Homo_sapiens.GRCh37.67.dna_rm.chromosome.Y.fa","r")\uc0\u8232 file.readline() # skip header\u8232 body = file.read()\u8232 g = body.count("G")\u8232 c = body.count("C")\u8232 t = body.count("T")\u8232 a = body.count("A")\u8232 gcCount = g+c\u8232 totalBaseCount = g+c+t+a\u8232 gcFraction = float(gcCount) / totalBaseCount\u8232 print( gcFraction * 100 )\
+\
+\
+\pard\pardeftab720\sa298
+
+\b\fs36 \cf0 Script3:
+\b0\fs24 \
+\pard\pardeftab720\sa240
+\cf0 import re\uc0\u8232 import string\
+file = open("Homo_sapiens.GRCh37.67.dna_rm.chromosome.Y.fa","r")\uc0\u8232 file.readline() # skip header\u8232 body = file.read()\u8232 gcCount = len(re.findall("[GC]", body))\u8232 totalBaseCount = len(re.findall("[GCTA]", body))\u8232 gcFraction = float(gcCount) / totalBaseCount\u8232 print( gcFraction * 100 )\
+}
