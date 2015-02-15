@@ -28,3 +28,4 @@ for i in range(0, min(len(seq1), len(seq2))):
 dist += abs(len(seq1) - len(seq2))
 
 #this is the test lines
+
