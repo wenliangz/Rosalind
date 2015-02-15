@@ -6,9 +6,10 @@ for line in f:
     #if your line starts with a > then it is the name of the following sequence
     if line.startswith('>'):
         name = line[1:-1]
-        continue #this means skips to the next line
+        continue #go back to loop, so this means skips to the next line
     #This code is only executed if it is a sequence of bases and not a name.
     seq_dict[name]+=line.strip()
+print seq_dict
 max_name=""
 max_GC=0
 for key,value in seq_dict.iteritems():
