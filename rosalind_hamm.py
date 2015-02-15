@@ -26,7 +26,3 @@ for i in range(0, min(len(seq1), len(seq2))):
 	if seq1[i] != seq2[i]:
 		dist += 1
 dist += abs(len(seq1) - len(seq2))
-
-ATCGATCGA
-ATC
-

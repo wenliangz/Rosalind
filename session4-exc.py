@@ -41,7 +41,7 @@ class FASTAFile(object):
 		self.path=path
 
 	def seuqence(self):
-		founds_sequences=[]
+		found_sequences=[]
 		with open(self.path,'r') as input:
 			sequence=''
 			for i,line in enumerate(input):
