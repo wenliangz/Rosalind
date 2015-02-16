@@ -1,0 +1,477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"iter",
+				"iteritems	function"
+			],
+			[
+				"all",
+				"all_genes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rosalind_hamm.py",
+			"settings":
+			{
+				"buffer_size": 535,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "rosalind_hamm.txt",
+			"settings":
+			{
+				"buffer_size": 1956,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "rosalind_gc.py",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 185.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"save as ",
+				"Project: Save As"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"add",
+				"Git (SideBarGit): Add & Commit & Push…"
+			],
+			[
+				"git add",
+				"Git (SideBarGit): Add & Commit & Push…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"github",
+				"GitHub: Open Gist in Editor"
+			],
+			[
+				"gith",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"github w",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"github pu",
+				"GitHub: Public Gist from Selection"
+			],
+			[
+				"git",
+				"GitHub: Public Gist from Selection"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"github upd",
+				"GitHub: Update Gist"
+			],
+			[
+				"githu",
+				"GitHub: Copy Gist to Clipboard"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"github: ",
+				"GitHub: Edit"
+			],
+			[
+				"github: pu",
+				"GitHub: Public Gist from Selection"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"pep8",
+				"Python: Disable Pep8 Linting On View"
+			],
+			[
+				"oeo8",
+				"Python: Disable Pep8 Linting On View"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pep",
+				"Python: Disable Pep8 Linting On View"
+			],
+			[
+				"p8",
+				"Python: Disable Pep8 Linting On View"
+			],
+			[
+				"lint",
+				"Python: Disable Pep8 Linting On View"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 912.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind"
+	],
+	"file_history":
+	[
+		"/C/Users/Wenliang/Documents/GitHub/BootStrappers/Python2/session4-exc.py",
+		"/C/Users/Wenliang/Documents/GitHub/BootStrappers/Python2/session1-exc.py",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_hamm.py",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_hamm.txt",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/Rosalind project.sublime-project",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/Rosalind project.sublime-workspace",
+		"/C/Users/Wenliang/Documents/GitHub/myproject/text.html",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/session4-exc.py",
+		"/C/Users/Wenliang/Documents/GitHub/newGitTest/README.md",
+		"/C/Users/Wenliang/Documents/GitHub/newGitTest/index.html",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_dna.txt",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_gc.py",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_gc.txt",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_subs.txt",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/sum_odd_inrange.py",
+		"/C/Users/Wenliang/Documents/GitHub/Rosalind/count_NT.py",
+		"/C/Users/Wenliang/Documents/GitHub/newGitTest/session3-exc.py",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/Wenliang/Documents/GitHub/newGitTest/session2-exc.py",
+		"/C/Users/Wenliang/Documents/GitHub/newGitTest/session1-exc.py",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/User/SublimePython.sublime-settings",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/I/study.areas/computer/programming/Python/Rosalind/rosalind_subs.txt",
+		"/I/study.areas/computer/programming/Python/Rosalind/a.py",
+		"/J/Swainlab@umass/ExpData/PCRarray/Transcritption factor/gene_classify.py",
+		"/I/study.areas/computer/programming/Python/test.py",
+		"/J/Swainlab@umass/ExpData/others/GEO/GSE11961/RAW Samples instructions",
+		"/I/study.courses/Bootstrappers@umassmed/R_visualization2014/session5/answers.R",
+		"/J/Swainlab@umass/ExpData/others/GEO/About GEO",
+		"/S/Operation systems/windows/Server 2012 R2/install SN",
+		"/S/Operation systems/windows/Server 2012 R2/Windows Server 2012 R2 激活密钥：",
+		"/J/Swainlab@umass/ExpData/PCRarray/Transcritption factor/iABCvsABC_up.csv",
+		"/J/Swainlab@umass/ExpData/PCRarray/Transcritption factor/GCBvsFOB_down.csv",
+		"/J/Swainlab@umass/ExpData/PCRarray/Transcritption factor/iABCvsABC_down.csv",
+		"/I/study.areas/computer/programming/Python/mypythons/wen2.py",
+		"/I/study.areas/computer/programming/Python/Pathon_Alfred/exercises/NM_file",
+		"/I/study.areas/computer/programming/Python/mypythons/getseq_chr_byAlfred.py",
+		"/I/study.areas/computer/programming/Python/mypythons/seq_chr_byAlfred.py",
+		"/I/study.areas/computer/programming/Python/Pathon_Alfred/exercises/overlap_gene",
+		"/I/study.areas/computer/programming/Python/Pathon_Alfred/exercises/example_text_file",
+		"/I/study.areas/computer/programming/Python/Pathon_Alfred/exercises/example_text_file_2",
+		"/I/study.areas/computer/programming/Python/Pathon_Alfred/exercises/ex10_4.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/ex8_2.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/ex7_5.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/ex7_4v2.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/ex8_3.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/ex7_4.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/ex7_3.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/exercises_8_script.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/test_idle.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/test",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/test_output",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/blue_file",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/test3.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/test2.py",
+		"/I/study.areas/computer/programming/Python/MyPythonProject/test.py",
+		"/C/Users/Wenliang/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/I/study.areas/computer/programming languages/Python/my project/test.py",
+		"/F/softwarebackups/router/tomato by shibby installation",
+		"/C/inetpub/wwwroot/06/0605/0605.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"else",
+			"name",
+			"nr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rosalind_hamm.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rosalind_hamm.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "rosalind_gc.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								549,
+								549
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 328.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "rosalind project.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"proje",
+				"Rosalind\\Rosalind project.sublime-project"
+			],
+			[
+				"",
+				"test3.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Wenliang\\Documents\\GitHub\\BootStrappers\\BootStrapper project.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 337.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
