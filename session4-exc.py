@@ -72,4 +72,4 @@ my_REVC=my_sequence.reverseComplement()
 mylist = [DNASequence("ATCCCG", "sequence 1"), DNASequence("AAAAATTTT", "sequence 2")]
 for seq in mylist:
 	print seq
-
+#sidebargit test

@@ -27,5 +27,5 @@ for i in range(0, min(len(seq1), len(seq2))):
 		dist += 1
 dist += abs(len(seq1) - len(seq2))
 
-
+#sidebargit test
 
