@@ -4,48 +4,53 @@
 		"selected_items":
 		[
 			[
-				"iter",
-				"iteritems	function"
+				"all",
+				"allowedFunctions"
 			],
 			[
-				"all",
-				"all_genes"
+				"iter",
+				"iteritems	function"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "rosalind_hamm.py",
+			"file": "Rosalind.py",
 			"settings":
 			{
-				"buffer_size": 535,
+				"buffer_size": 7645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Wenliang/Documents/github/BootStrappers/Python2/re_test.py",
+			"settings":
+			{
+				"buffer_size": 142,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "rosalind_hamm.txt",
+			"file": "/C/Users/Wenliang/Documents/github/BootStrappers/Python2/bioinformatic tools",
 			"settings":
 			{
-				"buffer_size": 1956,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "rosalind_gc.py",
-			"settings":
-			{
-				"buffer_size": 821,
-				"line_ending": "Windows"
+				"buffer_size": 29,
+				"line_ending": "Windows",
+				"name": "bioinformatic tools"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 185.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"remove",
 				"Package Control: Remove Package"
@@ -111,10 +116,6 @@
 				"GitHub: Copy Gist to Clipboard"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"github: ",
 				"GitHub: Edit"
 			],
@@ -163,7 +164,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 912.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -183,12 +184,11 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/Wenliang/Documents/GitHub/Rosalind"
-	],
 	"file_history":
 	[
+		"/C/Users/Wenliang/Documents/github/Rosalind/rosalind_hamm.py",
+		"/C/Users/Wenliang/Documents/github/Rosalind/rosalind_hamm.txt",
+		"/C/Users/Wenliang/Documents/github/Rosalind/calculate GC content scrip.rtf",
 		"/C/Users/Wenliang/Documents/GitHub/BootStrappers/Python2/session4-exc.py",
 		"/C/Users/Wenliang/Documents/GitHub/BootStrappers/Python2/session1-exc.py",
 		"/C/Users/Wenliang/Documents/GitHub/Rosalind/rosalind_hamm.py",
@@ -295,27 +295,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "rosalind_hamm.py",
+					"file": "Rosalind.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 535,
+						"buffer_size": 7645,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3089,
+								3089
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1018.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -323,24 +324,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "rosalind_hamm.txt",
+					"file": "/C/Users/Wenliang/Documents/github/BootStrappers/Python2/re_test.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1956,
+						"buffer_size": 142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								118,
+								118
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -351,24 +352,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "rosalind_gc.py",
-					"semi_transient": true,
+					"file": "/C/Users/Wenliang/Documents/github/BootStrappers/Python2/bioinformatic tools",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 821,
+						"buffer_size": 29,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								549,
-								549
+								19,
+								19
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"auto_name": "bioinformatic tools",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -461,7 +463,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -469,7 +470,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 337.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
